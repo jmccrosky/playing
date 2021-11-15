@@ -1,0 +1,21 @@
+---
+$schema: moz://mozilla.org/schemas/glean/pings/2-0-0
+
+main-events:
+  description: A ping to record various extension events
+  include_client_id: true
+  notification_emails:
+    - CHANGE-ME@example.com
+  bugs:
+    - http://bugzilla.mozilla.org/123456789/
+  data_reviews:
+    - http://example.com/path/to/data-review
+video-index:
+  description: A ping to record viewed video data
+  include_client_id: true
+  notification_emails:
+    - CHANGE-ME@example.com
+  bugs:
+    - http://bugzilla.mozilla.org/123456789/
+  data_reviews:
+    - http://example.com/path/to/data-review
